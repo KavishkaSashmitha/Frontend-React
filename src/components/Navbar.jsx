@@ -49,7 +49,7 @@ function Navbar() {
               <li>
                 <a
                   className="text-white hover:text-yellow-300 transition-colors duration-300"
-                  href="#"
+                  href="#services"
                 >
                   Services
                 </a>
@@ -57,7 +57,7 @@ function Navbar() {
               <li>
                 <a
                   className="text-white hover:text-yellow-300 transition-colors duration-300"
-                  href="#"
+                  href="#contact"
                 >
                   Contact
                 </a>
