@@ -1,11 +1,11 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-
-import About from '../components/About';
 import Hero from '../components/Hero';
-import Footer from '../components/Footer';
 import Services from '../components/Services';
+import About from '../components/About';
 import Contact from './Contact';
+import Footer from '../components/Footer';
+import ChatIcon from '../components/ChatIcon';
 
 function Home() {
   return (
@@ -22,6 +22,7 @@ function Home() {
         <Contact />
       </section>
       <Footer />
+      <ChatIcon /> {/* Add the ChatIcon component here */}
     </div>
   );
 }
